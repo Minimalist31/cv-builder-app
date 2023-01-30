@@ -1,0 +1,80 @@
+.main-div {
+  width: 90%;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.info-div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.image-div {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #32292f;
+}
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #32292f;
+}
+.subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #32292f;
+}
+.primary-button {
+  width: 251px;
+  background: #70abaf;
+  border-radius: 28px;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #f0f7f4;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+.main-div2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.image-grid {
+  padding: 100px 0px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  margin: auto;
+}
+.text-grid {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #32292f;
+  width: 90%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.navbar {
+  height: auto;
+  background: linear-gradient(
+    180deg,
+    rgba(153, 225, 217, 0.78) 0%,
+    rgba(153, 225, 217, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 80px;
+}
+.nav-box1 {
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navlink {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1e1e1e;
+}
