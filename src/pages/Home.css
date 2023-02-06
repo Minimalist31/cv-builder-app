@@ -3,7 +3,7 @@
   height: 550px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   text-align: left;
 }
@@ -39,6 +39,10 @@
 }
 .primary-button {
   width: 251px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   background: #70abaf;
   border-radius: 28px;
   cursor: pointer;

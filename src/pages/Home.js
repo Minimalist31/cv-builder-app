@@ -6,6 +6,7 @@ import g2 from "../assets/images/2.png";
 import g3 from "../assets/images/3.png";
 import g4 from "../assets/images/Arrow1.png";
 import g5 from "../assets/images/Arrow2.png";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
@@ -20,7 +21,10 @@ const Home = () => {
               maker has got your back. Let’s outperform your competition and get
               you that dream job.
             </p>
-            <button className="primary-button">Build cv now</button>
+
+            <Link to="/create" className="primary-button">
+              Build cv now
+            </Link>
           </div>
           <div className="image-div">
             <img src={cvpic} alt="cv" />
