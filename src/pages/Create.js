@@ -131,6 +131,22 @@ const Create = () => {
           </div>
         </div>
       </section>
+      <section>
+        <div className="padding-box4">
+          <div>
+            <p className="head">Tell us about your skills</p>
+            <p className="know-bit">
+              Include upto 3 major skill that you possess
+            </p>
+          </div>
+          <div className="textarea">
+            <label>
+              Skills &nbsp;&nbsp;&nbsp;
+              <textarea classname="skills-field" rows={20} cols={100} />
+            </label>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

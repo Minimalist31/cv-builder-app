@@ -123,3 +123,22 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.padding-box4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.textarea {
+  margin-top: 20px;
+}
+.skills-field {
+  width: 977px;
+  height: 268px;
+  left: 261px;
+  top: 236px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  margin: 50px;
+}

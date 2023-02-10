@@ -53,7 +53,9 @@ const Home = () => {
             <p>Download as PDF</p>
           </div>
           <div style={{ marginTop: "40px" }}>
-            <button className="primary-button">Build cv now</button>
+            <Link to="/create" className="primary-button">
+              Build cv now
+            </Link>
           </div>
           <p className="subtitle" style={{ marginTop: "60px" }}>
             The CV BUILDER creator isn’t just another curriculum vitae maker you
