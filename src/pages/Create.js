@@ -140,11 +140,27 @@ const Create = () => {
             </p>
           </div>
           <div className="textarea">
-            <label>
+            <label className="skill-box">
               Skills &nbsp;&nbsp;&nbsp;
               <textarea classname="skills-field" rows={20} cols={100} />
             </label>
           </div>
+        </div>
+      </section>
+      <section>
+        <div className="padding-box5">
+          <div>
+            <p className="head">Briefly Summarize yourself</p>
+            <p className="know-bit">
+              Include everything about yourself in brief
+            </p>
+          </div>
+          <div className="textarea">
+            <label className="skill-box">
+              <textarea classname="skills-field" rows={20} cols={100} />
+            </label>
+          </div>
+          <button className="primary-button submit-button">Submit</button>
         </div>
       </section>
     </div>

@@ -52,8 +52,8 @@ const Home = () => {
             <p>Wait for the magic</p>
             <p>Download as PDF</p>
           </div>
-          <div style={{ marginTop: "40px" }}>
-            <Link to="/create" className="primary-button">
+          <div className="second-button" style={{ marginTop: "40px" }}>
+            <Link to="/create" className="primary-button ">
               Build cv now
             </Link>
           </div>

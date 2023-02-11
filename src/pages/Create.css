@@ -128,9 +128,18 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
 }
-.textarea {
+textarea {
   margin-top: 20px;
+  border-radius: 20.5px;
+  outline: none;
+}
+.skill-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .skills-field {
   width: 977px;
@@ -139,6 +148,18 @@
   top: 236px;
   background: #ffffff;
   border: 1px solid #000000;
-  border-radius: 30px;
   margin: 50px;
+}
+.padding-box5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.submit-button {
+  margin-top: 100px;
+  background: #70abaf;
+  border: 1px solid #000000;
+  border-radius: 20.5px;
 }

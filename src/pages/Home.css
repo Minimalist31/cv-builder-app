@@ -55,6 +55,11 @@
   outline: none;
   margin-top: 10px;
 }
+.second-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .main-div2 {
   width: 90%;
   display: flex;
